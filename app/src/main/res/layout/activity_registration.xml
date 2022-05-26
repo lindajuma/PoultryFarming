@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:background="@drawable/hen"
+    tools:context=".RegistrationActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+      android:orientation="horizontal"
+       android:gravity="center"
+      android:weightSum="1"></LinearLayout>
+
+   <TextView
+       android:id="@+id/tv_register_id"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Registration"
+       android:textSize="25sp"
+       android:textStyle="italic"
+       android:layout_centerHorizontal="true"
+       android:layout_marginStart="20dp"
+       android:layout_marginTop="70dp">
+
+
+   </TextView>
+
+
+   <EditText
+      android:id="@+id/et_firstname_id"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="Firstname"
+       android:textColorHint="#000"
+      android:layout_below="@id/tv_register_id"
+      android:textSize="25dp"
+      android:textStyle="italic"
+       android:layout_marginTop="30dp"
+       android:layout_marginEnd="50dp"
+      android:inputType="text"
+       android:layout_marginStart="20dp">
+
+
+   </EditText>
+
+   <EditText
+      android:id="@+id/et_secondname_id"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="Secondname"
+       android:textColorHint="@color/black"
+      android:layout_below="@id/et_firstname_id"
+      android:textStyle="italic"
+      android:textSize="25dp"
+      android:layout_marginTop="30dp"
+       android:layout_marginEnd="50dp"
+      android:layout_marginStart="20dp"
+      android:inputType="textPersonName">
+
+   </EditText>
+
+   <EditText
+      android:id="@+id/et_username_id"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="Username"
+       android:textColorHint="@color/black"
+      android:layout_below="@id/et_secondname_id"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="30dp"
+       android:layout_marginEnd="50dp"
+      android:textSize="25dp"
+      android:textStyle="italic"
+      android:inputType="textPersonName">
+
+   </EditText>
+
+   <EditText
+      android:id="@+id/et_emailaddress_id"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint="Emailaddress"
+       android:textColorHint="@color/black"
+      android:textStyle="italic"
+      android:textSize="25dp"
+      android:layout_marginTop="30dp"
+       android:layout_marginEnd="50dp"
+      android:layout_marginStart="20dp"
+      android:layout_below="@id/et_username_id"
+      android:inputType="textEmailAddress">
+
+   </EditText>
+
+   <EditText
+      android:id="@+id/et_phone_id"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:layout_below="@id/et_emailaddress_id"
+      android:hint="Phonenumber"
+       android:textColorHint="@color/black"
+      android:textSize="25dp"
+      android:textStyle="italic"
+      android:layout_marginTop="30dp"
+       android:layout_marginEnd="50dp"
+      android:layout_marginStart="20dp"
+      android:inputType="phone">
+
+   </EditText>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:weightSum="3"></LinearLayout>
+
+
+
+   <Button
+       android:id="@+id/btn_register_id"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/et_phone_id"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="50dp"
+       android:layout_marginTop="30dp"
+       android:text="REGISTER">
+
+   </Button>
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:weightSum="1"></LinearLayout>
+
+
+
+
+</RelativeLayout>
